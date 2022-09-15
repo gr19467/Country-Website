@@ -1,9 +1,11 @@
-style{
-    background-color: darkseagreen;
+body{
+    background-color: rgb(158, 141, 114);
 }
 
 h1{
-    color: forestgreen;
+    color: rgb(17, 112, 17);
+    text-align: center;
+    font-size: 300%;
 }
 
 .navi {
@@ -24,5 +26,16 @@ h1{
 }
 
 .navi>li>a:hover {
-    color: red;
+    color: rgb(17, 112, 17);
+}
+
+img{
+    border: 3px ridge white;
+    display: inline-block;
+    margin: auto;
+}
+
+p{
+    color: rgb(163, 0, 0);
+    font-size: 150%;
 }
